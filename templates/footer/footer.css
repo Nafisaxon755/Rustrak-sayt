@@ -3,7 +3,13 @@
   margin: 0;
   font-family: Fira Sans;
 }
-
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
 .container {
   max-width: 1320px;
   width: 100%;
@@ -14,7 +20,7 @@
 footer {
   position: relative;
   background-color: #f2f2f2;
-  padding: 62px 0;
+  padding-top: 62px;
 }
 
 .footer__title {
@@ -34,7 +40,7 @@ footer {
 .footer__img-truck {
   position: absolute;
   right: 0;
-  bottom: -38px;
+  top: -47px;
 }
 .footer__wrapper {
   display: flex;
@@ -66,11 +72,76 @@ footer label {
   letter-spacing: 0%;
 }
 .footer__subtitle {
-  font-family: Fira Sans;
   font-weight: 400;
   font-size: 14px;
-  leading-trim: NONE;
   line-height: 110.00000000000001%;
   letter-spacing: 0%;
-  color: #000000;
+  color: #00000091;
+  margin-top: 17px;
+  padding-bottom: 63px;
+}
+.footer-bottom {
+  background-color: #000;
+  color: #fff;
+  padding-top: 64px;
+  padding-bottom: 42px;
+}
+.footer__list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #c4c4c4;
+  margin-bottom: 16px;
+}
+.footer__list-link a {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #c4c4c4;
+  margin-bottom: 13px;
+}
+
+.footer-bottom__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #c4c4c4;
+  margin-bottom: 8px;
+}
+.footer-bottom__link {
+  display: inline-block;
+  background-color: #fec80b;
+  padding: 13px 30px;
+  border-radius: 4px;
+  color: #000;
+  margin-top: 16px;
+  margin-bottom: 55px;
+}
+.footer-bottom__info {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #c4c4c4;
+  max-width: 424px;
+}
+.footer__list-wrapper {
+  display: flex;
+  gap: 102px;
+}
+.footer__social-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 33px;
 }
