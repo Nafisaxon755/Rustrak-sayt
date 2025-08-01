@@ -1,4 +1,7 @@
 * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   font-family: "Fira Sans", sans-serif;
 }
 
@@ -6,4 +9,9 @@
   max-width: 1320px;
   margin: 0 auto;
   padding: 0 16px;
+}
+
+/* HERO */
+.hero {
+  background-image: url(./assets/images/Rectangle\ 616.png);
 }
