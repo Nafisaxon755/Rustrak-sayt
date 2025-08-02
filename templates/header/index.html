@@ -7,100 +7,100 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./header.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header class="container">
-        <div class="header__wrapper">
+    <header>
+        <div class="header__wrapper container">
             <div class="header__inner">
                 <img src="../../assets/images/logo.svg" alt="logo">
                 <img src="../../assets/images/vertical line yellow.svg">
-                <h3>производство и продажа автоспецтехники</h3>
+                <h3 class="header__inner-text">производство и продажа автоспецтехники</h3>
             </div>
-            <div>
+            <div class="header__contact">
                 <div>
-                    <h3>Время работы <img src="../../assets/images/arrow bottom.svg" alt="arrowBottom"></h3>
-                    <p>г. Нижний Новгород ул. Торфяная, 35</p>
+                    <h3 class="header__contact-title">Время работы <img src="../../assets/images/arrow bottom.svg"
+                            alt="arrowBottom"></h3>
+                    <p class="header__contact-addrs">г. Нижний Новгород ул. Торфяная, 35</p>
                 </div>
                 <div>
                     <div>
-                        <p>Для регионов: 8 (800) 77-77-210</p>
-                        <p>Нижний Новгород: 8 (831) 225-00-55</p>
+                        <p class="header__contact-addrs">Для регионов: 8 (800) 77-77-210</p>
+                        <p class="header__contact-addrs">Нижний Новгород: 8 (831) 225-00-55</p>
                     </div>
                     <img src="../../assets/images/phone icon.svg" alt="">
                 </div>
             </div>
         </div>
-        <nav class="container">
-            <div>
-                <button><img src="../../assets/images/icon_normal_burger.svg" alt="">Каталог</button>
-                <ul class="nav__list">
-                    <li><a class="nav__list-link" href="#">О нас <img src="../../assets/images/arrow bottom.svg"
-                                alt=""></a>
-                    </li>
-                    <li><a class="nav__list-link" href="#">Медиа <img src="../../assets/images/arrow bottom.svg"
-                                alt=""></a>
-                    </li>
-                    <li><a class="nav__list-link" href="#">Сервис</a>
-                    </li>
-                    <li><a class="nav__list-link" href="#">Новости</a>
-                    </li>
-                    <li><a class="nav__list-link" href="#">Контакты</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <div class="nav__search">
-                    <input type="text">
-                    <img src="../../assets/images/icon_normal_search.svg" alt="">
-                </div>
-                <a href="#"><img src="../../assets/images/icon_normal_trolley.svg" alt=""></a>
-                <a href="#"><img src="../../assets/images/icon_normal_fav.svg" alt=""></a>
-            </div>
-        </nav>
-        <div class="nav__catalog">
-            <ul class="nav__catalog-list">
-                <h1 class="nav__catalog-list-title">Категории</h1>
-                <li><a class="nav__catalog-list-link" href="#">Краны-манипуляторы</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Автофургоны</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Автоэвакуаторы</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Автогидроподъёмники</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Бортовые Автомобили</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Самосвалы</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Автоцистерны</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Автотопливозаправщики</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Крюковые погрузчики</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Продукция в наличии</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Шасси</a></li>
-            </ul>
-            <ul class="nav__catalog-list">
-                <h1 class="nav__catalog-list-title">О нас</h1>
-                <li><a class="nav__catalog-list-link" href="#">О компании ООО «Рустрак»</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Новости</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Наши партнёры</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Производство</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Поставщикам и партнёрам</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Отзывы</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Сертификаты</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Вакансии</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Кредит и лизинг</a></li>
-            </ul>
-            <ul class="nav__catalog-list">
-                <h1 class="nav__catalog-list-title">Медиа</h1>
-                <li><a class="nav__catalog-list-link" href="#">Фотогалерея</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Видео</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Материалы для скачивания</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Рекламные материалы</a></li>
-            </ul>
-            <ul class="nav__catalog-list">
-                <h1 class="nav__catalog-list-title">Сервис</h1>
-                <li><a class="nav__catalog-list-link" href="#">Новости</a></li>
-                <li><a class="nav__catalog-list-link" href="#">Контакты</a></li>
+    </header>
+    <nav class="container">
+        <div class="nav__wrapper">
+            <button><img src="../../assets/images/icon_normal_burger.svg" alt="">Каталог</button>
+            <ul class="nav__list">
+                <li><a class="nav__list-link" href="#">О нас <img src="../../assets/images/arrow bottom.svg" alt=""></a>
+                </li>
+                <li><a class="nav__list-link" href="#">Медиа <img src="../../assets/images/arrow bottom.svg" alt=""></a>
+                </li>
+                <li><a class="nav__list-link" href="#">Сервис</a>
+                </li>
+                <li><a class="nav__list-link" href="#">Новости</a>
+                </li>
+                <li><a class="nav__list-link" href="#">Контакты</a>
+                </li>
             </ul>
         </div>
-    </header>
+        <div class="nav__cta">
+            <div class="nav__search">
+                <input type="text">
+                <img src="../../assets/images/icon_normal_search.svg" alt="">
+            </div>
+            <a href="#"><img src="../../assets/images/icon_normal_trolley.svg" alt=""></a>
+            <a href="#"><img src="../../assets/images/icon_normal_fav.svg" alt=""></a>
+        </div>
+    </nav>
+    <div class="nav__catalog">
+        <ul class="nav__catalog-list">
+            <h1 class="nav__catalog-list-title">Категории</h1>
+            <li><a class="nav__catalog-list-link" href="#">Краны-манипуляторы</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Автофургоны</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Автоэвакуаторы</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Автогидроподъёмники</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Бортовые Автомобили</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Самосвалы</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Автоцистерны</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Автотопливозаправщики</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Крюковые погрузчики</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Продукция в наличии</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Шасси</a></li>
+        </ul>
+        <ul class="nav__catalog-list">
+            <h1 class="nav__catalog-list-title">О нас</h1>
+            <li><a class="nav__catalog-list-link" href="#">О компании ООО «Рустрак»</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Новости</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Наши партнёры</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Производство</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Поставщикам и партнёрам</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Отзывы</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Сертификаты</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Вакансии</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Кредит и лизинг</a></li>
+        </ul>
+        <ul class="nav__catalog-list">
+            <h1 class="nav__catalog-list-title">Медиа</h1>
+            <li><a class="nav__catalog-list-link" href="#">Фотогалерея</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Видео</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Материалы для скачивания</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Рекламные материалы</a></li>
+        </ul>
+        <ul class="nav__catalog-list">
+            <h1 class="nav__catalog-list-title">Сервис</h1>
+            <li><a class="nav__catalog-list-link" href="#">Новости</a></li>
+            <li><a class="nav__catalog-list-link" href="#">Контакты</a></li>
+        </ul>
+    </div>
+
 </body>
 
 </html>
