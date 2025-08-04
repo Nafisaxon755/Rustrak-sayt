@@ -37,7 +37,8 @@
     </header>
     <nav class="container">
         <div class="nav__wrapper">
-            <button><img src="../../assets/images/icon_normal_burger.svg" alt="">Каталог</button>
+            <button class="nav__btn-catalog" id="catalogBtn"><img id="burgerIcon"
+                    src="../../assets/images/icon_normal_burger.svg" alt="">Каталог</button>
             <ul class="nav__list">
                 <li><a class="nav__list-link" href="#">О нас <img src="../../assets/images/arrow bottom.svg" alt=""></a>
                 </li>
@@ -60,47 +61,50 @@
             <a href="#"><img src="../../assets/images/icon_normal_fav.svg" alt=""></a>
         </div>
     </nav>
-    <div class="nav__catalog">
-        <ul class="nav__catalog-list">
-            <h1 class="nav__catalog-list-title">Категории</h1>
-            <li><a class="nav__catalog-list-link" href="#">Краны-манипуляторы</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Автофургоны</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Автоэвакуаторы</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Автогидроподъёмники</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Бортовые Автомобили</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Самосвалы</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Автоцистерны</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Автотопливозаправщики</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Крюковые погрузчики</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Продукция в наличии</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Шасси</a></li>
-        </ul>
-        <ul class="nav__catalog-list">
-            <h1 class="nav__catalog-list-title">О нас</h1>
-            <li><a class="nav__catalog-list-link" href="#">О компании ООО «Рустрак»</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Новости</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Наши партнёры</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Производство</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Поставщикам и партнёрам</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Отзывы</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Сертификаты</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Вакансии</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Кредит и лизинг</a></li>
-        </ul>
-        <ul class="nav__catalog-list">
-            <h1 class="nav__catalog-list-title">Медиа</h1>
-            <li><a class="nav__catalog-list-link" href="#">Фотогалерея</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Видео</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Материалы для скачивания</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Рекламные материалы</a></li>
-        </ul>
-        <ul class="nav__catalog-list">
-            <h1 class="nav__catalog-list-title">Сервис</h1>
-            <li><a class="nav__catalog-list-link" href="#">Новости</a></li>
-            <li><a class="nav__catalog-list-link" href="#">Контакты</a></li>
-        </ul>
-    </div>
+    <div class="nav__catalog hidden" id="catalogMenu">
+        <div class="nav__catalog-wrapper container">
+            <ul class="nav__catalog-list">
+                <h1 class="nav__catalog-list-title">Категории</h1>
+                <li><a class="nav__catalog-list-link" href="#">Краны-манипуляторы</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Автофургоны</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Автоэвакуаторы</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Автогидроподъёмники</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Бортовые Автомобили</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Самосвалы</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Автоцистерны</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Автотопливозаправщики</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Крюковые погрузчики</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Продукция в наличии</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Шасси</a></li>
+            </ul>
+            <ul class="nav__catalog-list">
+                <h1 class="nav__catalog-list-title">О нас</h1>
+                <li><a class="nav__catalog-list-link" href="#">О компании ООО «Рустрак»</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Новости</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Наши партнёры</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Производство</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Поставщикам и партнёрам</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Отзывы</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Сертификаты</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Вакансии</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Кредит и лизинг</a></li>
+            </ul>
+            <ul class="nav__catalog-list">
+                <h1 class="nav__catalog-list-title">Медиа</h1>
+                <li><a class="nav__catalog-list-link" href="#">Фотогалерея</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Видео</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Материалы для скачивания</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Рекламные материалы</a></li>
+            </ul>
+            <ul class="nav__catalog-list">
+                <h1 class="nav__catalog-list-title">Сервис</h1>
+                <li><a class="nav__catalog-list-link" href="#">Новости</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Контакты</a></li>
+            </ul>
+        </div>
 
+    </div>
+    <script src="./header.js"></script>
 </body>
 
 </html>
