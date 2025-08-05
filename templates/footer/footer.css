@@ -106,8 +106,14 @@ footer label {
   line-height: 130%;
   letter-spacing: 0%;
   vertical-align: middle;
-  color: #c4c4c4;
+  color: #6B6B6B;
   margin-bottom: 16px;
+}
+
+.footer__dropdown label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
 }
 
 .footer__list-link a {
@@ -117,7 +123,7 @@ footer label {
   line-height: 110.00000000000001%;
   letter-spacing: 0%;
   vertical-align: middle;
-  color: #c4c4c4;
+  color: #6B6B6B;
   margin-bottom: 13px;
 }
 
@@ -131,7 +137,7 @@ footer label {
   font-size: 16px;
   line-height: 130%;
   letter-spacing: 0%;
-  color: #c4c4c4;
+  color: #6B6B6B;
   margin-bottom: 8px;
 }
 
@@ -151,7 +157,7 @@ footer label {
   font-size: 14px;
   line-height: 130%;
   letter-spacing: 0%;
-  color: #c4c4c4;
+  color: #6B6B6B;
   max-width: 424px;
 }
 
@@ -179,11 +185,14 @@ footer label {
 
 .footer__dropdown-list {
   list-style: none;
-  padding-left: 15px;
 }
 
 .footer__checkbox:checked+.footer__list-title+.footer__dropdown-list {
   display: block;
+}
+
+.footer__dropdown-icon {
+  display: none;
 }
 
 @media (max-width: 1290px) {
@@ -240,5 +249,9 @@ footer label {
 
   .footer__list-title {
     cursor: pointer;
+  }
+
+  .footer__dropdown-icon {
+    display: flex;
   }
 }
