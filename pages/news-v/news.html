@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../news-v/style.css" />
+    <link rel="stylesheet" href="../../templates/header/header.css">
+    <link rel="stylesheet" href="../../templates/footer/footer.css" />
+  </head>
+  <body>
+     <header>
+        <div class="header__wrapper container">
+            <div class="header__inner">
+                <img class="header__logo" src="../../assets/images/logo.svg" alt="logo">
+                <img class="header__line" src="../../assets/images/vertical line yellow.svg">
+                <h3 class="header__inner-text">производство и продажа автоспецтехники</h3>
+            </div>
+            <div class="header__contact">
+                <div>
+                    <h3 class="header__contact-title">Время работы <img src="../../assets/images/arrow bottom.svg"
+                            alt="arrowBottom"></h3>
+                    <p class="header__contact-addrs header__contact-addrs-br">г. Нижний Новгород ул. Торфяная, 35</p>
+                </div>
+                <div>
+                    <div>
+                        <p class="header__contact-addrs">Для регионов: 8 (800) 77-77-210</p>
+                        <p class="header__contact-addrs">Нижний Новгород: 8 (831) 225-00-55</p>
+                    </div>
+                    <img class="header__icon" src="../../assets/images/phone icon.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="container">
+        <div class="nav__wrapper">
+            <button class="nav__btn-catalog" id="catalogBtn"><img id="burgerIcon"
+                    src="../../assets/images/icon_normal_burger.svg" alt="">Каталог</button>
+            <ul class="nav__list">
+                <li><a class="nav__list-link" href="#">О нас <img class="nav__catalog-list-icon"
+                            src="../../assets/images/arrow bottom.svg" alt=""></a>
+                </li>
+                <li><a class="nav__list-link" href="#">Медиа <img class="nav__catalog-list-icon"
+                            src="../../assets/images/arrow bottom.svg" alt=""></a>
+                </li>
+                <li><a class="nav__list-link" href="#">Сервис</a>
+                </li>
+                <li><a class="nav__list-link" href="#">Новости</a>
+                </li>
+                <li><a class="nav__list-link" href="#">Контакты</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav__cta">
+            <div class="nav__search">
+                <input type="text">
+                <img src="../../assets/images/icon_normal_search.svg" alt="">
+            </div>
+            <a href="#"><img src="../../assets/images/icon_normal_trolley.svg" alt=""></a>
+            <a href="#"><img src="../../assets/images/icon_normal_fav.svg" alt=""></a>
+        </div>
+    </nav>
+    <div class="nav__catalog hidden" id="catalogMenu">
+        <div class="nav__catalog-wrapper container">
+            <ul class="nav__catalog-list">
+                <input type="checkbox" id="cat1" class="nav__catalog-checkbox" />
+                <label for="cat1" class="nav__catalog-list-title">Категории <img class="nav__catalog-list-icon"
+                        src="../../assets/images/arrow bottom.svg" alt=""></label>
+                <li><a class="nav__catalog-list-link" href="#">Краны-манипуляторы</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Автофургоны</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Автоэвакуаторы</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Автогидроподъёмники</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Бортовые Автомобили</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Самосвалы</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Автоцистерны</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Автотопливозаправщики</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Крюковые погрузчики</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Продукция в наличии</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Шасси</a></li>
+            </ul>
+            <ul class="nav__catalog-list">
+                <input type="checkbox" id="cat2" class="nav__catalog-checkbox" />
+                <label for="cat2" class="nav__catalog-list-title">О нас <img class="nav__catalog-list-icon"
+                        src="../../assets/images/arrow bottom.svg" alt=""></label>
+                <li><a class="nav__catalog-list-link" href="#">О компании ООО «Рустрак»</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Новости</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Наши партнёры</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Производство</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Поставщикам и партнёрам</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Отзывы</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Сертификаты</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Вакансии</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Кредит и лизинг</a></li>
+            </ul>
+            <ul class="nav__catalog-list">
+                <input type="checkbox" id="cat3" class="nav__catalog-checkbox" />
+                <label for="cat3" class="nav__catalog-list-title">Медиа <img class="nav__catalog-list-icon"
+                        src="../../assets/images/arrow bottom.svg" alt=""></label>
+                <li><a class="nav__catalog-list-link" href="#">Фотогалерея</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Видео</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Материалы для скачивания</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Рекламные материалы</a></li>
+            </ul>
+            <ul class="nav__catalog-list">
+                <input type="checkbox" id="cat4" class="nav__catalog-checkbox" />
+                <label for="cat4" class="nav__catalog-list-title">Сервис <img class="nav__catalog-list-icon"
+                        src="../../assets/images/arrow bottom.svg" alt=""></label>
+                <li><a class="nav__catalog-list-link" href="#">Новости</a></li>
+                <li><a class="nav__catalog-list-link" href="#">Контакты</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <section class="kamaz" style="margin-top: 10px;">
+      <div class="kamaz__container">
+        <a href="#" class="kamaz__back-link">← назад</a>
+        <h1 class="kamaz__title">
+          КАМАЗ готовит конкурента ГАЗели и Валдая (первые ФОТО)
+        </h1>
+        <p class="kamaz__date">15.06.2021</p>
+        <div class="kamaz__content">
+          <div class="kamaz__text">
+            <p class="kamaz__paragraph">
+              Идейные соображения высшего порядка, а также постоянный
+              количественный рост и сфера нашей активности требует от нас
+              анализа распределения внутренних резервов и ресурсов. Учитывая
+              ключевые сценарии поведения, разбавленное изрядной долей эмпатии,
+              рациональное мышление выявляет срочную потребность новых
+              предложений. В частности, современная методология разработки
+              требует анализа новых предложений. В целом, конечно,
+              высококачественный прототип будущего проекта способствует
+              повышению качества анализа существующих паттернов поведения. Как
+              принято считать, многие известные личности представляют собой не
+              что иное, как квинтэссенцию победы маркетинга над разумом и должны
+              быть смешаны с не уникальными данными до степени совершенной
+              неузнаваемости, из-за чего возрастает их статус бесполезности.
+              Являясь всего лишь частью общей картины, базовые сценарии
+              поведения пользователей преданы социально-демократической анафеме.
+            </p>
+          </div>
+          <div class="kamaz__image-box">
+            <img
+              src="../../assets/images/kamaz.png"
+              alt="КАМАЗ фургоны"
+              class="kamaz__image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="news">
+  <div class="news__container">
+    <h2 class="news__title">Ещё новости</h2>
+    <div class="news__list">
+      <article class="news__card">
+        <p class="news__date">15.06.2021</p>
+        <h3 class="news__card-title">КАМАЗ готовит конкурента ГАЗели и Валдая (первые ФОТО)</h3>
+        <a href="#" class="news__link
+        ">Подробнее <span class="news__arrow">→</span></a>
+      </article>
+
+      <article class="news__card">
+        <p class="news__date">15.06.2021</p>
+        <h3 class="news__card-title">КАМАЗ готовит конкурента</h3>
+        <a href="#" class="news__link">Подробнее <span class="news__arrow">→</span></a>
+      </article>
+
+      <article class="news__card">
+        <p class="news__date">15.06.2021</p>
+        <h3 class="news__card-title">КАМАЗ готовит конкурента ГАЗели и Валдая и ещё что-то...</h3>
+        <a href="#" class="news__link">Подробнее <span class="news__arrow">→</span></a>
+      </article>
+
+      <article class="news__card">
+        <p class="news__date">15.06.2021</p>
+        <h3 class="news__card-title">Короткий заголовок</h3>
+        <a href="#" class="news__link">Подробнее <span class="news__arrow">→</span></a>
+      </article>
+    </div>
+  </div>
+</section>
+<footer style="margin-top: 50px;">
+    <div class="container">
+      <h1 class="footer__title">ОСТАЛИСЬ ВОПРОСЫ?</h1>
+      <p class="footer__text">
+        Оставьте свои контактные данные, и мы презвоним вам в ближайшее время
+      </p>
+      <div class="footer__wrapper">
+        <div>
+          <label>Имя</label>
+          <br />
+          <input type="text" placeholder="Иван Иванов" />
+        </div>
+        <div>
+          <label>Телефон</label>
+          <br />
+          <input type="number" placeholder="+7" />
+        </div>
+        <button class="footer__btn-submit">Отправить</button>
+      </div>
+      <p class="footer__subtitle">
+        Нажимая на кнопку отправить Вы соглашаетесь на обработку Ваших
+        персональных данных компание ООО «Рустрак»
+      </p>
+    </div>
+    <img class="footer__img-truck" src="../../assets/images/footer truck.svg" alt="" />
+    <div class="footer-bottom">
+      <div class="footer-bottom__wrapper container">
+        <div>
+          <p class="footer-bottom__text">Тел/факс: 8(831) 225-00-55</p>
+          <p class="footer-bottom__text">Email: info@rtrf.ru</p>
+          <p class="footer-bottom__text">Нижний Новгород, ул. Торфяная, 35</p>
+          <a class="footer-bottom__link" href="#">Заказать звонок</a>
+          <p class="footer-bottom__info">
+            2009 - 2021 © Rus - Trucks <br />
+            Информация на сайте не является публичной офертой и носит
+            исключительно информационный характер
+            <br />
+            <br />
+            Разработка R-top
+          </p>
+        </div>
+        <div>
+          <div class="footer__list-wrapper">
+            <div class="footer__dropdown">
+              <input type="checkbox" id="dropdown1" class="footer__checkbox" />
+              <label class="footer__list-title" for="dropdown1">Название блока <img class="footer__dropdown-icon"
+                  src="../../assets/images/footer link arrow bottom.svg" alt=""></label>
+              <ul class="footer__dropdown-list">
+                <li class="footer__list-link">
+                  <a href="#">Категории</a>
+                </li>
+                <li class="footer__list-link">
+                  <a href="#">Каталог</a>
+                </li>
+                <li class="footer__list-link">
+                  <a href="#">Избранное</a>
+                </li>
+                <li class="footer__list-link">
+                  <a href="#">О компании</a>
+                </li>
+                <li class="footer__list-link">
+                  <a href="#">Вакансии</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__dropdown">
+              <input type="checkbox" id="dropdown2" class="footer__checkbox" />
+              <label class="footer__list-title" for="dropdown2">Название блока <img class="footer__dropdown-icon"
+                  src="../../assets/images/footer link arrow bottom.svg" alt=""></label>
+              <ul class="footer__dropdown-list">
+
+                <li class="footer__list-link">
+                  <a href="#">Категории</a>
+                </li>
+                <li class="footer__list-link">
+                  <a href="#">Каталог</a>
+                </li>
+                <li class="footer__list-link">
+                  <a href="#">Избранное</a>
+                </li>
+                <li class="footer__list-link">
+                  <a href="#">О компании</a>
+                </li>
+                <li class="footer__list-link">
+                  <a href="#">Вакансии</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__dropdown">
+              <input type="checkbox" id="dropdown3" class="footer__checkbox" />
+              <label class="footer__list-title" for="dropdown3">Название блока <img class="footer__dropdown-icon"
+                  src="../../assets/images/footer link arrow bottom.svg" alt=""></label>
+              <ul class="footer__dropdown-list">
+
+                <li class="footer__list-link">
+                  <a href="#">Категории</a>
+                </li>
+                <li class="footer__list-link">
+                  <a href="#">Каталог</a>
+                </li>
+                <li class="footer__list-link">
+                  <a href="#">Избранное</a>
+                </li>
+                <li class="footer__list-link">
+                  <a href="#">О компании</a>
+                </li>
+                <li class="footer__list-link">
+                  <a href="#">Вакансии</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__social-links">
+            <a class="footer__social-link" href="#"><img src="../../assets/images/facebook icon.svg" alt="" /></a>
+            <a class="footer__social-link" href="#"><img src="../../assets/images/twitter icon.svg" alt="" /></a>
+            <a class="footer__social-link" href="#"><img src="../../assets/images/google icon.svg" alt="" /></a>
+            <a class="footer__social-link" href="#"><img src="../../assets/images/instagram icon.svg" alt="" /></a>
+            <a class="footer__social-link" href="#"><img src="../../assets/images/youtube icon.svg" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script src="../../templates/header/header.js"></script>
+  </body>
+</html>
