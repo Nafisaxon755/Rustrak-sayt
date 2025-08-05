@@ -72,6 +72,7 @@ footer input {
   outline: none;
   margin-top: 4px;
   background-color: #f2f2f2;
+  width: 280px;
 }
 
 footer label {
@@ -79,6 +80,7 @@ footer label {
   font-size: 14px;
   line-height: 110.00000000000001%;
   letter-spacing: 0%;
+
 }
 
 .footer__subtitle {
@@ -162,4 +164,81 @@ footer label {
   display: flex;
   gap: 10px;
   margin-top: 33px;
+}
+
+.footer__checkbox {
+  display: none;
+}
+
+.footer__list-title {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 0;
+  display: block;
+}
+
+.footer__dropdown-list {
+  list-style: none;
+  padding-left: 15px;
+}
+
+.footer__checkbox:checked+.footer__list-title+.footer__dropdown-list {
+  display: block;
+}
+
+@media (max-width: 1290px) {
+  .footer__img-truck {
+    display: none;
+  }
+}
+
+@media (max-width: 1050px) {
+  .footer-bottom__wrapper {
+    flex-direction: column;
+  }
+
+  .footer-bottom__info {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 770px) {
+  .footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer>div:first-child {
+    text-align: center;
+  }
+
+  .footer__wrapper>div {
+    text-align: left;
+  }
+
+  .footer__btn-submit {
+    padding: 13px 81px;
+  }
+
+  .footer__list-wrapper {
+    flex-direction: column;
+  }
+
+  .footer__list-wrapper {
+
+    gap: 0px;
+  }
+
+  .footer__dropdown-list {
+    display: none;
+  }
+
+  .footer__checkbox:checked+.footer__list-title+.footer__dropdown-list {
+    display: block;
+  }
+
+  .footer__list-title {
+    cursor: pointer;
+  }
 }
