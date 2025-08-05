@@ -97,12 +97,16 @@ nav {
 }
 
 .nav__list-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
     letter-spacing: 0%;
     color: #000;
 }
+
 
 .nav__cta {
     gap: 16px;
@@ -152,6 +156,7 @@ nav {
     line-height: 110.00000000000001%;
     letter-spacing: 0%;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 .nav__search {
@@ -175,4 +180,80 @@ nav {
 
 .hidden {
     display: none;
+}
+
+@media (max-width: 1100px) {
+
+    .nav__list,
+    .header__contact-title {
+        display: none;
+    }
+
+    .header__contact-addrs-br {
+        width: 161px;
+    }
+}
+
+@media (max-width: 950px) {
+    .header__contact-addrs-br {
+        display: none;
+    }
+}
+
+@media (max-width: 760px) {
+
+    .header__icon {
+        width: 35px;
+    }
+
+    .header__contact-addrs,
+    .header__inner-text {
+        font-size: 12px;
+    }
+
+    .header__logo {
+        width: 130px;
+    }
+
+    .nav__search {
+        width: 220px;
+    }
+
+    .nav__search input {
+        padding: 7px 12px
+    }
+
+    .header__contact {
+
+        gap: 0px;
+    }
+
+    .header__contact>div:last-child {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .header__contact-addrs {
+        display: none;
+    }
+
+    .nav__search {
+        width: 190px;
+    }
+}
+
+@media (max-width: 525px) {
+    .nav__search {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .header__inner-text,
+    .header__line {
+        display: none;
+    }
 }
