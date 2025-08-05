@@ -7,7 +7,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./service.css">
+    <link rel="stylesheet" href="../../templates/header/header.css">
     <title>Document</title>
 </head>
 
@@ -40,11 +41,9 @@
             <button class="nav__btn-catalog" id="catalogBtn"><img id="burgerIcon"
                     src="../../assets/images/icon_normal_burger.svg" alt="">Каталог</button>
             <ul class="nav__list">
-                <li><a class="nav__list-link" href="#">О нас <img class="nav__catalog-list-icon"
-                            src="../../assets/images/arrow bottom.svg" alt=""></a>
+                <li><a class="nav__list-link" href="#">О нас <img src="../../assets/images/arrow bottom.svg" alt=""></a>
                 </li>
-                <li><a class="nav__list-link" href="#">Медиа <img class="nav__catalog-list-icon"
-                            src="../../assets/images/arrow bottom.svg" alt=""></a>
+                <li><a class="nav__list-link" href="#">Медиа <img src="../../assets/images/arrow bottom.svg" alt=""></a>
                 </li>
                 <li><a class="nav__list-link" href="#">Сервис</a>
                 </li>
@@ -66,9 +65,7 @@
     <div class="nav__catalog hidden" id="catalogMenu">
         <div class="nav__catalog-wrapper container">
             <ul class="nav__catalog-list">
-                <input type="checkbox" id="cat1" class="nav__catalog-checkbox" />
-                <label for="cat1" class="nav__catalog-list-title">Категории <img class="nav__catalog-list-icon"
-                        src="../../assets/images/arrow bottom.svg" alt=""></label>
+                <h1 class="nav__catalog-list-title">Категории</h1>
                 <li><a class="nav__catalog-list-link" href="#">Краны-манипуляторы</a></li>
                 <li><a class="nav__catalog-list-link" href="#">Автофургоны</a></li>
                 <li><a class="nav__catalog-list-link" href="#">Автоэвакуаторы</a></li>
@@ -82,9 +79,7 @@
                 <li><a class="nav__catalog-list-link" href="#">Шасси</a></li>
             </ul>
             <ul class="nav__catalog-list">
-                <input type="checkbox" id="cat2" class="nav__catalog-checkbox" />
-                <label for="cat2" class="nav__catalog-list-title">О нас <img class="nav__catalog-list-icon"
-                        src="../../assets/images/arrow bottom.svg" alt=""></label>
+                <h1 class="nav__catalog-list-title">О нас</h1>
                 <li><a class="nav__catalog-list-link" href="#">О компании ООО «Рустрак»</a></li>
                 <li><a class="nav__catalog-list-link" href="#">Новости</a></li>
                 <li><a class="nav__catalog-list-link" href="#">Наши партнёры</a></li>
@@ -96,25 +91,38 @@
                 <li><a class="nav__catalog-list-link" href="#">Кредит и лизинг</a></li>
             </ul>
             <ul class="nav__catalog-list">
-                <input type="checkbox" id="cat3" class="nav__catalog-checkbox" />
-                <label for="cat3" class="nav__catalog-list-title">Медиа <img class="nav__catalog-list-icon"
-                        src="../../assets/images/arrow bottom.svg" alt=""></label>
+                <h1 class="nav__catalog-list-title">Медиа</h1>
                 <li><a class="nav__catalog-list-link" href="#">Фотогалерея</a></li>
                 <li><a class="nav__catalog-list-link" href="#">Видео</a></li>
                 <li><a class="nav__catalog-list-link" href="#">Материалы для скачивания</a></li>
                 <li><a class="nav__catalog-list-link" href="#">Рекламные материалы</a></li>
             </ul>
             <ul class="nav__catalog-list">
-                <input type="checkbox" id="cat4" class="nav__catalog-checkbox" />
-                <label for="cat4" class="nav__catalog-list-title">Сервис <img class="nav__catalog-list-icon"
-                        src="../../assets/images/arrow bottom.svg" alt=""></label>
+                <h1 class="nav__catalog-list-title">Сервис</h1>
                 <li><a class="nav__catalog-list-link" href="#">Новости</a></li>
                 <li><a class="nav__catalog-list-link" href="#">Контакты</a></li>
             </ul>
         </div>
 
     </div>
-    <script src="./header.js"></script>
+    <section class="service container">
+        <div class="breadcrumbs">
+            <a class="breadcrumbs__link" href="/">Главная</a>
+            <span class="breadcrumbs__separator">/</span>
+            <a class="breadcrumbs__link" href="#">Категории</a>
+            <span class="breadcrumbs__separator">/</span>
+            <a href="#" class="breadcrumbs__link breadcrumbs__link--current">Название категории</a>
+        </div>
+        <h1>Сервис и гарантии
+            15 682 товаров</h1>
+        <p>После приобретения продукции в ООО «Рустрак» вы всегда можете обратиться за помощью по любым вопросам,
+            связанными с гарантийным обслуживанием, настройкой и ремонтом транспорного средства, поставкой
+            дополнительного обурудования, а также внесением доработок под задачи клиента. Вы можете обратиться за
+            технической поддержкой и консультацией по эксплуатации в любое время и в любой срок после заключения
+            контракта.</p>
+    </section>
+
+    <script src="../../templates/header/header.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,8 @@
+.breadcrumbs {
+    padding: 24px 0px;
+}
+
+.breadcrumbs__link,
+.breadcrumbs__separator {
+    color: #8b8b8b;
+}
