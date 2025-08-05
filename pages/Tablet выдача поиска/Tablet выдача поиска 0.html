@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Tablet выдача поиска 0.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header__wrapper container">
+        <div class="header__inner">
+          <img src="../../assets/images/logo.svg" alt="logo" />
+          <img src="../../assets/images/vertical line yellow.svg" />
+          <h3 class="header__inner-text">
+            производство и продажа автоспецтехники
+          </h3>
+        </div>
+        <div class="header__contact">
+          <div>
+            <h3 class="header__contact-title">
+              Время работы
+              <img
+                src="../../assets/images/arrow bottom.svg"
+                alt="arrowBottom"
+              />
+            </h3>
+            <p class="header__contact-addrs">
+              г. Нижний Новгород ул. Торфяная, 35
+            </p>
+          </div>
+          <div>
+            <div>
+              <p class="header__contact-addrs">
+                Для регионов: 8 (800) 77-77-210
+              </p>
+              <p class="header__contact-addrs">
+                Нижний Новгород: 8 (831) 225-00-55
+              </p>
+            </div>
+            <img src="../../assets/images/phone icon.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <header class="site-header">
+      <div class="header-container">
+        <div class="header-left">
+          <button class="catalog-btn">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 12H21"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M3 6H21"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M3 18H21"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            Каталог
+          </button>
+        </div>
+
+        <div class="header-center">
+          <nav>
+            <ul class="site-nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <span>О нас</span>
+                  <svg
+                    width="12"
+                    height="9"
+                    viewBox="0 0 12 9"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M6 9L12 0H0L6 9Z" fill="#FEC80B" />
+                  </svg>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Наша история</a></li>
+                  <li><a href="#">Команда</a></li>
+                  <li><a href="#">Вакансии</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <span>Медиа</span>
+                  <svg
+                    width="12"
+                    height="9"
+                    viewBox="0 0 12 9"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M6 9L12 0H0L6 9Z" fill="#FEC80B" />
+                  </svg>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Статьи</a></li>
+                  <li><a href="#">Видео</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link">Сервис</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Новости</a></li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header-right">
+          <form class="search-form" action="#" method="get">
+            <input type="search" class="search-input" placeholder="" />
+            <button type="submit" class="search-submit-btn" aria-label="Искать">
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 22 22"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M9.09159 1.375C4.82984 1.375 1.375 4.90334 1.375 9.25578C1.375 13.6082 4.82984 17.1366 9.09159 17.1366C10.9417 17.1366 12.6397 16.4716 13.969 15.363L19.2766 20.4056C19.6009 20.7137 20.1084 20.695 20.4102 20.3638C20.7119 20.0326 20.6936 19.5142 20.3692 19.2061L15.1006 14.2005C16.1687 12.8483 16.8082 11.1283 16.8082 9.25578C16.8082 4.90335 13.3534 1.375 9.09159 1.375ZM2.97917 9.25578C2.97917 5.80815 5.71579 3.0133 9.09159 3.0133C12.4674 3.0133 15.204 5.80815 15.204 9.25578C15.204 12.7034 12.4674 15.4983 9.09159 15.4983C5.71579 15.4983 2.97917 12.7034 2.97917 9.25578Z"
+                  fill="black"
+                />
+              </svg>
+            </button>
+          </form>
+          <div class="header-actions">
+            <a href="#" class="action-btn" aria-label="Корзина">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0.549805 2.4998C0.549805 2.11321 0.863205 1.7998 1.2498 1.7998H6.2097C6.54375 1.7998 6.83125 2.03583 6.8963 2.36348L8.02528 8.04965L28.7498 8.0496C28.9582 8.0496 29.1558 8.14249 29.2888 8.30299C29.4218 8.46349 29.4764 8.67491 29.4376 8.87972L27.4536 19.367L27.4526 19.3722C27.3078 20.1075 26.9107 20.7691 26.3296 21.2407C25.7502 21.7109 25.0248 21.962 24.2796 21.9493L12.0192 21.9493C11.2739 21.9621 10.5485 21.711 9.96909 21.2408C9.38803 20.7693 8.99103 20.1077 8.8461 19.3725L8.84604 19.3722L6.77153 8.92387C6.76528 8.89946 6.76031 8.87453 6.7567 8.84916L5.63502 3.1998H1.2498C0.863205 3.1998 0.549805 2.8864 0.549805 2.4998ZM8.30325 9.44965L10.2194 19.1006L10.2196 19.1016C10.3015 19.5172 10.5256 19.8894 10.8513 20.1537C11.1768 20.4178 11.5832 20.5575 11.9993 20.5495L12.0128 20.5492V20.5493L24.2859 20.5493H24.2994L24.2994 20.5494C24.7155 20.5575 25.1219 20.4178 25.4474 20.1536C25.7724 19.8899 25.9963 19.5186 26.0786 19.1039L26.0791 19.1015L27.905 9.4496L8.30325 9.44965ZM18.9998 17.4998C18.9998 17.7759 18.7759 17.9998 18.4998 17.9998C18.2237 17.9998 17.9998 17.7759 17.9998 17.4998C17.9998 17.2237 18.2237 16.9998 18.4998 16.9998C18.7759 16.9998 18.9998 17.2237 18.9998 17.4998ZM12.4234 28.7498C13.8041 28.7498 14.9234 27.6305 14.9234 26.2498C14.9234 24.8691 13.8041 23.7498 12.4234 23.7498C11.0427 23.7498 9.92339 24.8691 9.92339 26.2498C9.92339 27.6305 11.0427 28.7498 12.4234 28.7498ZM23.5889 28.7498C24.9696 28.7498 26.0889 27.6305 26.0889 26.2498C26.0889 24.8691 24.9696 23.7498 23.5889 23.7498C22.2082 23.7498 21.0889 24.8691 21.0889 26.2498C21.0889 27.6305 22.2082 28.7498 23.5889 28.7498Z"
+                  fill="black"
+                />
+              </svg>
+            </a>
+            <a href="#" class="action-btn" aria-label="Избранное">
+              <svg
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.1035 1.9502C23.0434 1.9502 23.9753 2.14446 24.8457 2.52344C25.6074 2.85515 26.3104 3.32277 26.9229 3.90625L27.1797 4.16406C27.8497 4.86798 28.3836 5.70555 28.748 6.62988C29.1124 7.55424 29.2998 8.5464 29.2998 9.54883C29.2998 10.5513 29.1125 11.5434 28.748 12.4678C28.4292 13.2765 27.9807 14.0186 27.4248 14.6631L27.1797 14.9336L25.6582 16.5322L14.999 27.7344L4.34082 16.5322L2.81934 14.9336C1.46596 13.5111 0.700231 11.5747 0.700195 9.54883C0.700195 7.52298 1.46601 5.58655 2.81934 4.16406C4.17173 2.74273 5.99871 1.95117 7.89551 1.95117C9.79224 1.9512 11.6183 2.7428 12.9707 4.16406H12.9717L14.4922 5.7627C14.6243 5.90156 14.8083 5.98047 15 5.98047C15.1915 5.98036 15.3748 5.90146 15.5068 5.7627L17.0283 4.16406C17.698 3.45993 18.4909 2.90254 19.3613 2.52344C20.2317 2.14442 21.1636 1.95024 22.1035 1.9502Z"
+                  stroke="black"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+          <button class="mobile-menu-toggle" aria-label="Открыть меню">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 12H21"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M3 6H21"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M3 18H21"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <nav class="breadcrumbs">
+          <a href="#">Главная</a>
+          <span>/</span>
+          <a href="#">Категории</a>
+          <span>/</span>
+          <span>Название категории</span>
+        </nav>
+
+        <section class="no-results-section">
+          <h1 class="no-results-title">
+            По запросу «фургон» ничего не найдено
+          </h1>
+          <p class="no-results-text">
+            Убедитесь, что название бренда и модели написано правильно. Или
+            попробуйте найти необходимый вам товар через категории.
+          </p>
+          <a href="#" class="go-to-categories-btn">Перейти в категории</a>
+        </section>
+      </div>
+
+      <section class="suggestions-section">
+        <div class="container">
+          <h2 class="suggestions-title">Возможно, заинтересует</h2>
+        </div>
+        <div class="suggestions-scroller">
+          <div
+            class="suggestions-grid"
+            style="
+              padding-left: calc((100% - 1320px) / 2 + 16px);
+              padding-right: 16px;
+            "
+          >
+            <article class="product-card">
+              <div class="product-image-wrapper">
+                <img
+                  src="../../assets/images/abd96a308a02da97425a302e306a45b334482c81.png"
+                  alt="HYUNDAI HD 120 бортовой с каркасом и тентом"
+                />
+                <span class="stock-badge">В наличии</span>
+              </div>
+              <div class="product-content">
+                <h3 class="product-title">
+                  HYUNDAI HD 120 бортовой с каркасом и тентом
+                </h3>
+                <div class="product-actions">
+                  <a href="#" class="details-btn">Подробнее</a>
+                  <button
+                    class="favorite-btn"
+                    aria-label="Добавить в избранное"
+                  >
+                    <svg
+                      width="24"
+                      height="22"
+                      viewBox="0 0 24 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M17.6826 0.5C18.4428 0.5 19.1966 0.657433 19.9004 0.963867C20.6042 1.27037 21.2459 1.72011 21.7871 2.28906V2.29004C22.3286 2.85886 22.7594 3.53572 23.0537 4.28223C23.348 5.02866 23.5 5.82938 23.5 6.63867C23.5 7.44816 23.3481 8.2495 23.0537 8.99609C22.7594 9.74262 22.3286 10.4195 21.7871 10.9883L20.5703 12.2676L12 21.2744L3.42969 12.2676L2.21191 10.9883C1.1183 9.83883 0.5 8.27437 0.5 6.63867C0.50007 5.00317 1.11849 3.4394 2.21191 2.29004C3.30482 1.14142 4.78207 0.500977 6.31641 0.500977C7.85072 0.500998 9.32801 1.14144 10.4209 2.29004L11.6377 3.56836C11.7321 3.66755 11.8631 3.72363 12 3.72363C12.1368 3.72355 12.268 3.66748 12.3623 3.56836L13.5791 2.29004V2.28906C14.1203 1.72013 14.762 1.27036 15.4658 0.963867C16.1694 0.657517 16.9226 0.500061 17.6826 0.5Z"
+                        stroke="black"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image-wrapper">
+                <img
+                  src="../../assets/images/abd96a308a02da97425a302e306a45b334482c81.png"
+                  alt="HYUNDAI HD 65 бортовой"
+                />
+                <span class="stock-badge">В наличии</span>
+              </div>
+              <div class="product-content">
+                <h3 class="product-title">HYUNDAI HD 65 бортовой</h3>
+                <div class="product-actions">
+                  <a href="#" class="details-btn">Подробнее</a>
+                  <button
+                    class="favorite-btn"
+                    aria-label="Добавить в избранное"
+                  >
+                    <svg
+                      width="24"
+                      height="22"
+                      viewBox="0 0 24 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M17.6826 0.5C18.4428 0.5 19.1966 0.657433 19.9004 0.963867C20.6042 1.27037 21.2459 1.72011 21.7871 2.28906V2.29004C22.3286 2.85886 22.7594 3.53572 23.0537 4.28223C23.348 5.02866 23.5 5.82938 23.5 6.63867C23.5 7.44816 23.3481 8.2495 23.0537 8.99609C22.7594 9.74262 22.3286 10.4195 21.7871 10.9883L20.5703 12.2676L12 21.2744L3.42969 12.2676L2.21191 10.9883C1.1183 9.83883 0.5 8.27437 0.5 6.63867C0.50007 5.00317 1.11849 3.4394 2.21191 2.29004C3.30482 1.14142 4.78207 0.500977 6.31641 0.500977C7.85072 0.500998 9.32801 1.14144 10.4209 2.29004L11.6377 3.56836C11.7321 3.66755 11.8631 3.72363 12 3.72363C12.1368 3.72355 12.268 3.66748 12.3623 3.56836L13.5791 2.29004V2.28906C14.1203 1.72013 14.762 1.27036 15.4658 0.963867C16.1694 0.657517 16.9226 0.500061 17.6826 0.5Z"
+                        stroke="black"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image-wrapper">
+                <img
+                  src="../../assets/images/abd96a308a02da97425a302e306a45b334482c81.png"
+                  alt="HYUNDAI HD 78 с промтоварным фургоном"
+                />
+                <span class="stock-badge">В наличии</span>
+              </div>
+              <div class="product-content">
+                <h3 class="product-title">
+                  HYUNDAI HD 78 с промтоварным фургоном
+                </h3>
+                <div class="product-actions">
+                  <a href="#" class="details-btn">Подробнее</a>
+                  <button
+                    class="favorite-btn"
+                    aria-label="Добавить в избранное"
+                  >
+                    <svg
+                      width="24"
+                      height="22"
+                      viewBox="0 0 24 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M17.6826 0.5C18.4428 0.5 19.1966 0.657433 19.9004 0.963867C20.6042 1.27037 21.2459 1.72011 21.7871 2.28906V2.29004C22.3286 2.85886 22.7594 3.53572 23.0537 4.28223C23.348 5.02866 23.5 5.82938 23.5 6.63867C23.5 7.44816 23.3481 8.2495 23.0537 8.99609C22.7594 9.74262 22.3286 10.4195 21.7871 10.9883L20.5703 12.2676L12 21.2744L3.42969 12.2676L2.21191 10.9883C1.1183 9.83883 0.5 8.27437 0.5 6.63867C0.50007 5.00317 1.11849 3.4394 2.21191 2.29004C3.30482 1.14142 4.78207 0.500977 6.31641 0.500977C7.85072 0.500998 9.32801 1.14144 10.4209 2.29004L11.6377 3.56836C11.7321 3.66755 11.8631 3.72363 12 3.72363C12.1368 3.72355 12.268 3.66748 12.3623 3.56836L13.5791 2.29004V2.28906C14.1203 1.72013 14.762 1.27036 15.4658 0.963867C16.1694 0.657517 16.9226 0.500061 17.6826 0.5Z"
+                        stroke="black"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image-wrapper">
+                <img
+                  src="../../assets/images/abd96a308a02da97425a302e306a45b334482c81.png"
+                  alt="HYUNDAI HD 78 бортовой"
+                />
+                <span class="stock-badge">В наличии</span>
+              </div>
+              <div class="product-content">
+                <h3 class="product-title">HYUNDAI HD 78 бортовой</h3>
+                <div class="product-actions">
+                  <a href="#" class="details-btn">Подробнее</a>
+                  <button
+                    class="favorite-btn"
+                    aria-label="Добавить в избранное"
+                  >
+                    <svg
+                      width="24"
+                      height="22"
+                      viewBox="0 0 24 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M17.6826 0.5C18.4428 0.5 19.1966 0.657433 19.9004 0.963867C20.6042 1.27037 21.2459 1.72011 21.7871 2.28906V2.29004C22.3286 2.85886 22.7594 3.53572 23.0537 4.28223C23.348 5.02866 23.5 5.82938 23.5 6.63867C23.5 7.44816 23.3481 8.2495 23.0537 8.99609C22.7594 9.74262 22.3286 10.4195 21.7871 10.9883L20.5703 12.2676L12 21.2744L3.42969 12.2676L2.21191 10.9883C1.1183 9.83883 0.5 8.27437 0.5 6.63867C0.50007 5.00317 1.11849 3.4394 2.21191 2.29004C3.30482 1.14142 4.78207 0.500977 6.31641 0.500977C7.85072 0.500998 9.32801 1.14144 10.4209 2.29004L11.6377 3.56836C11.7321 3.66755 11.8631 3.72363 12 3.72363C12.1368 3.72355 12.268 3.66748 12.3623 3.56836L13.5791 2.29004V2.28906C14.1203 1.72013 14.762 1.27036 15.4658 0.963867C16.1694 0.657517 16.9226 0.500061 17.6826 0.5Z"
+                        stroke="black"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image-wrapper">
+                <img
+                  src="../../assets/images/abd96a308a02da97425a302e306a45b334482c81.png"
+                  alt="HYUNDAI HD 78 бортовой автомобиль с бортами 1000 мм"
+                />
+                <span class="stock-badge">В наличии</span>
+              </div>
+              <div class="product-content">
+                <h3 class="product-title">
+                  HYUNDAI HD 78 бортовой автомобиль с бортами 1000 мм
+                </h3>
+                <div class="product-actions">
+                  <a href="#" class="details-btn">Подробнее</a>
+                  <button
+                    class="favorite-btn"
+                    aria-label="Добавить в избранное"
+                  >
+                    <svg
+                      width="24"
+                      height="22"
+                      viewBox="0 0 24 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M17.6826 0.5C18.4428 0.5 19.1966 0.657433 19.9004 0.963867C20.6042 1.27037 21.2459 1.72011 21.7871 2.28906V2.29004C22.3286 2.85886 22.7594 3.53572 23.0537 4.28223C23.348 5.02866 23.5 5.82938 23.5 6.63867C23.5 7.44816 23.3481 8.2495 23.0537 8.99609C22.7594 9.74262 22.3286 10.4195 21.7871 10.9883L20.5703 12.2676L12 21.2744L3.42969 12.2676L2.21191 10.9883C1.1183 9.83883 0.5 8.27437 0.5 6.63867C0.50007 5.00317 1.11849 3.4394 2.21191 2.29004C3.30482 1.14142 4.78207 0.500977 6.31641 0.500977C7.85072 0.500998 9.32801 1.14144 10.4209 2.29004L11.6377 3.56836C11.7321 3.66755 11.8631 3.72363 12 3.72363C12.1368 3.72355 12.268 3.66748 12.3623 3.56836L13.5791 2.29004V2.28906C14.1203 1.72013 14.762 1.27036 15.4658 0.963867C16.1694 0.657517 16.9226 0.500061 17.6826 0.5Z"
+                        stroke="black"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-image-wrapper">
+                <img
+                  src="../../assets/images/abd96a308a02da97425a302e306a45b334482c81.png"
+                  alt="Переоборудование бортового автомобиля Hyundai HD-78 ..."
+                />
+                <span class="stock-badge">В наличии</span>
+              </div>
+              <div class="product-content">
+                <h3 class="product-title">
+                  Переоборудование бортового автомобиля Hyundai HD-78 ...
+                </h3>
+                <div class="product-actions">
+                  <a href="#" class="details-btn">Подробнее</a>
+                  <button
+                    class="favorite-btn"
+                    aria-label="Добавить в избранное"
+                  >
+                    <svg
+                      width="24"
+                      height="22"
+                      viewBox="0 0 24 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M17.6826 0.5C18.4428 0.5 19.1966 0.657433 19.9004 0.963867C20.6042 1.27037 21.2459 1.72011 21.7871 2.28906V2.29004C22.3286 2.85886 22.7594 3.53572 23.0537 4.28223C23.348 5.02866 23.5 5.82938 23.5 6.63867C23.5 7.44816 23.3481 8.2495 23.0537 8.99609C22.7594 9.74262 22.3286 10.4195 21.7871 10.9883L20.5703 12.2676L12 21.2744L3.42969 12.2676L2.21191 10.9883C1.1183 9.83883 0.5 8.27437 0.5 6.63867C0.50007 5.00317 1.11849 3.4394 2.21191 2.29004C3.30482 1.14142 4.78207 0.500977 6.31641 0.500977C7.85072 0.500998 9.32801 1.14144 10.4209 2.29004L11.6377 3.56836C11.7321 3.66755 11.8631 3.72363 12 3.72363C12.1368 3.72355 12.268 3.66748 12.3623 3.56836L13.5791 2.29004V2.28906C14.1203 1.72013 14.762 1.27036 15.4658 0.963867C16.1694 0.657517 16.9226 0.500061 17.6826 0.5Z"
+                        stroke="black"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <h1 class="footer__title">ОСТАЛИСЬ ВОПРОСЫ?</h1>
+        <p class="footer__text">
+          Оставьте свои контактные данные, и мы презвоним вам в ближайшее время
+        </p>
+        <div class="footer__wrapper">
+          <div>
+            <label>Имя</label>
+            <br />
+            <input type="text" placeholder="Иван Иванов" />
+          </div>
+          <div>
+            <label>Телефон</label>
+            <br />
+            <input type="number" placeholder="+7" />
+          </div>
+          <button class="footer__btn-submit">Отправить</button>
+        </div>
+        <p class="footer__subtitle">
+          Нажимая на кнопку отправить Вы соглашаетесь на обработку Ваших
+          персональных данных компание ООО «Рустрак»
+        </p>
+      </div>
+      <img
+        class="footer__img-truck"
+        src="../../assets/images/footer truck.svg"
+        alt=""
+      />
+      <div class="footer-bottom">
+        <div class="footer-bottom__wrapper container">
+          <div>
+            <p class="footer-bottom__text">Тел/факс: 8(831) 225-00-55</p>
+            <p class="footer-bottom__text">Email: info@rtrf.ru</p>
+            <p class="footer-bottom__text">Нижний Новгород, ул. Торфяная, 35</p>
+            <a class="footer-bottom__link" href="#">Заказать звонок</a>
+            <p class="footer-bottom__info">
+              2009 - 2021 © Rus - Trucks <br />
+              Информация на сайте не является публичной офертой и носит
+              исключительно информационный характер
+              <br />
+              <br />
+              Разработка R-top
+            </p>
+          </div>
+          <div>
+            <div class="footer__list-wrapper">
+              <div class="footer__dropdown">
+                <input
+                  type="checkbox"
+                  id="dropdown1"
+                  class="footer__checkbox"
+                />
+                <label class="footer__list-title" for="dropdown1"
+                  >Название блока
+                  <img
+                    class="footer__dropdown-icon"
+                    src="../../assets/images/footer link arrow bottom.svg"
+                    alt=""
+                /></label>
+                <ul class="footer__dropdown-list">
+                  <li class="footer__list-link">
+                    <a href="#">Категории</a>
+                  </li>
+                  <li class="footer__list-link">
+                    <a href="#">Каталог</a>
+                  </li>
+                  <li class="footer__list-link">
+                    <a href="#">Избранное</a>
+                  </li>
+                  <li class="footer__list-link">
+                    <a href="#">О компании</a>
+                  </li>
+                  <li class="footer__list-link">
+                    <a href="#">Вакансии</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__dropdown">
+                <input
+                  type="checkbox"
+                  id="dropdown2"
+                  class="footer__checkbox"
+                />
+                <label class="footer__list-title" for="dropdown2"
+                  >Название блока
+                  <img
+                    class="footer__dropdown-icon"
+                    src="../../assets/images/footer link arrow bottom.svg"
+                    alt=""
+                /></label>
+                <ul class="footer__dropdown-list">
+                  <li class="footer__list-link">
+                    <a href="#">Категории</a>
+                  </li>
+                  <li class="footer__list-link">
+                    <a href="#">Каталог</a>
+                  </li>
+                  <li class="footer__list-link">
+                    <a href="#">Избранное</a>
+                  </li>
+                  <li class="footer__list-link">
+                    <a href="#">О компании</a>
+                  </li>
+                  <li class="footer__list-link">
+                    <a href="#">Вакансии</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__dropdown">
+                <input
+                  type="checkbox"
+                  id="dropdown3"
+                  class="footer__checkbox"
+                />
+                <label class="footer__list-title" for="dropdown3"
+                  >Название блока
+                  <img
+                    class="footer__dropdown-icon"
+                    src="../../assets/images/footer link arrow bottom.svg"
+                    alt=""
+                /></label>
+                <ul class="footer__dropdown-list">
+                  <li class="footer__list-link">
+                    <a href="#">Категории</a>
+                  </li>
+                  <li class="footer__list-link">
+                    <a href="#">Каталог</a>
+                  </li>
+                  <li class="footer__list-link">
+                    <a href="#">Избранное</a>
+                  </li>
+                  <li class="footer__list-link">
+                    <a href="#">О компании</a>
+                  </li>
+                  <li class="footer__list-link">
+                    <a href="#">Вакансии</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__social-links">
+              <a class="footer__social-link" href="#"
+                ><img src="../../assets/images/facebook icon.svg" alt=""
+              /></a>
+              <a class="footer__social-link" href="#"
+                ><img src="../../assets/images/twitter icon.svg" alt=""
+              /></a>
+              <a class="footer__social-link" href="#"
+                ><img src="../../assets/images/google icon.svg" alt=""
+              /></a>
+              <a class="footer__social-link" href="#"
+                ><img src="../../assets/images/instagram icon.svg" alt=""
+              /></a>
+              <a class="footer__social-link" href="#"
+                ><img src="../../assets/images/youtube icon.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

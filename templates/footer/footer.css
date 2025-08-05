@@ -3,16 +3,13 @@
   margin: 0;
   font-family: Fira Sans;
 }
-
 a {
   text-decoration: none;
 }
-
 ul {
   list-style: none;
   padding: 0;
 }
-
 .container {
   max-width: 1320px;
   width: 100%;
@@ -33,7 +30,6 @@ footer {
   letter-spacing: 0%;
   margin-bottom: 5px;
 }
-
 .footer__text {
   font-weight: 400;
   font-size: 18px;
@@ -41,19 +37,16 @@ footer {
   letter-spacing: 0%;
   margin-bottom: 38px;
 }
-
 .footer__img-truck {
   position: absolute;
   right: 0;
   top: -47px;
 }
-
 .footer__wrapper {
   display: flex;
   gap: 19px;
   align-items: end;
 }
-
 .footer__btn-submit {
   font-weight: 400;
   font-size: 16px;
@@ -64,7 +57,6 @@ footer {
   border: none;
   border-radius: 4px;
 }
-
 footer input {
   padding: 11px 13px;
   border-radius: 4px;
@@ -72,17 +64,13 @@ footer input {
   outline: none;
   margin-top: 4px;
   background-color: #f2f2f2;
-  width: 280px;
 }
-
 footer label {
   font-weight: 400;
   font-size: 14px;
   line-height: 110.00000000000001%;
   letter-spacing: 0%;
-
 }
-
 .footer__subtitle {
   font-weight: 400;
   font-size: 14px;
@@ -92,30 +80,21 @@ footer label {
   margin-top: 17px;
   padding-bottom: 63px;
 }
-
 .footer-bottom {
   background-color: #000;
   color: #fff;
   padding-top: 64px;
   padding-bottom: 42px;
 }
-
 .footer__list-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 130%;
   letter-spacing: 0%;
   vertical-align: middle;
-  color: #6B6B6B;
+  color: #c4c4c4;
   margin-bottom: 16px;
 }
-
-.footer__dropdown label {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-}
-
 .footer__list-link a {
   display: inline-block;
   font-weight: 300;
@@ -123,7 +102,7 @@ footer label {
   line-height: 110.00000000000001%;
   letter-spacing: 0%;
   vertical-align: middle;
-  color: #6B6B6B;
+  color: #c4c4c4;
   margin-bottom: 13px;
 }
 
@@ -131,16 +110,14 @@ footer label {
   display: flex;
   justify-content: space-between;
 }
-
 .footer-bottom__text {
   font-weight: 500;
   font-size: 16px;
   line-height: 130%;
   letter-spacing: 0%;
-  color: #6B6B6B;
+  color: #c4c4c4;
   margin-bottom: 8px;
 }
-
 .footer-bottom__link {
   display: inline-block;
   background-color: #fec80b;
@@ -150,108 +127,21 @@ footer label {
   margin-top: 16px;
   margin-bottom: 55px;
 }
-
 .footer-bottom__info {
   font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
   line-height: 130%;
   letter-spacing: 0%;
-  color: #6B6B6B;
+  color: #c4c4c4;
   max-width: 424px;
 }
-
 .footer__list-wrapper {
   display: flex;
   gap: 102px;
 }
-
 .footer__social-links {
   display: flex;
   gap: 10px;
   margin-top: 33px;
-}
-
-.footer__checkbox {
-  display: none;
-}
-
-.footer__list-title {
-  font-weight: bold;
-  cursor: pointer;
-  padding: 10px 0;
-  display: block;
-}
-
-.footer__dropdown-list {
-  list-style: none;
-}
-
-.footer__checkbox:checked+.footer__list-title+.footer__dropdown-list {
-  display: block;
-}
-
-.footer__dropdown-icon {
-  display: none;
-}
-
-@media (max-width: 1290px) {
-  .footer__img-truck {
-    display: none;
-  }
-}
-
-@media (max-width: 1050px) {
-  .footer-bottom__wrapper {
-    flex-direction: column;
-  }
-
-  .footer-bottom__info {
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 770px) {
-  .footer__wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  footer>div:first-child {
-    text-align: center;
-  }
-
-  .footer__wrapper>div {
-    text-align: left;
-  }
-
-  .footer__btn-submit {
-    padding: 13px 81px;
-  }
-
-  .footer__list-wrapper {
-    flex-direction: column;
-  }
-
-  .footer__list-wrapper {
-
-    gap: 0px;
-  }
-
-  .footer__dropdown-list {
-    display: none;
-  }
-
-  .footer__checkbox:checked+.footer__list-title+.footer__dropdown-list {
-    display: block;
-  }
-
-  .footer__list-title {
-    cursor: pointer;
-  }
-
-  .footer__dropdown-icon {
-    display: flex;
-  }
 }
